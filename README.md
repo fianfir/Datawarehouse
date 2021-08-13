@@ -1,6 +1,6 @@
-#Datawarehouse
+# Datawarehouse
 
-##DeskripsiKasus:
+## DeskripsiKasus:
 Salah satu faktor kemajuan sebuah negara adalah mempunyai aplikasi transportasi seperti ojek online untuk masyarakat berpergian atau membeli suatu barang tanpa harus ketempatnya langsung.
 Dimana aplikasi ojek online ini mempunyai beberapa mode yaitu car, bike, shop, dan food.
 Untuk car dan bike adalah fitur penjemputan customer dari alamat customer ke tujuan yang ingin di tuju oleh customer tersebut.
@@ -11,11 +11,11 @@ Akan tetapi dalam mengembangkan suatu data warehouse terdapat beberapa permasala
 yaitu jumlah data yang disimpan dalam basis data bertambah dari waktu ke waktu secara signifikan sehingga terjadi penumpukan data. 
 Hal ini terjadi karena peningkatan jumlah record data yang sangat pesat dengan melibatkan ribuan transaksi dalam sehari.
 
-###DataPendukung:
+### DataPendukung:
 Perancangan data warehouse di dukung oleh sebuah model data yang disebut model multidimensi yang memungkinkan para pengambil keputusan melakukan analisis terhadap data-data yang diperlukan. 
 Pengimplementasian sistem data warehouse pada sebuah aplikasi ojek online pihak pengambil keputusan untuk menganalisa data transaksi yang digunakan dalam aplikasi ojek online.
 
-####CaraMelakukanProsesETL
+#### CaraMelakukanProsesETL
 1. Mengkoneksikan ke datawarehouse
 - Pertama kita melakukan connection di pentaho melalui view
 - Setelah itu kita klik kanan di Database Conection lalu klik new
@@ -53,7 +53,7 @@ Pengimplementasian sistem data warehouse pada sebuah aplikasi ojek online pihak 
 - selanjutnya kita cek di phpmyadmin dengan klik http://localhost/phpmyadmin. cari nama db_uas_dw (nama db anda).
 - jika sudah ada field didalam table, maka proses export data anda sudah berhasil dibuat.
 
-4. Membuat atau melihat ERD.
+### Cara Membuat atau melihat ERD MySQL pada phpmyadmin.
 - pergi kehalaman phpmyadmin dengan klik http://localhost/phpmyadmin. cari nama db_uas_dw.
 - lalu klik desainer.
 - maka akan menampilkan ERD dengan settingan datawarehouse yang sudah kita input kedalam database MySQL.
